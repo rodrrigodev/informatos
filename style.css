@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,600;0,700;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--cetacean-blue);
+    font-family: 'arimo', ' sans-serif';
+    overflow: overlay;
+}
+
+a,
+ul,
+li {
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 500px;
+}
+
+h1,
+h2,
+h3,
+a,
+p,
+span {
+    color: #fff;
+}
+
+:root {
+    --cetacean-blue: #020659;
+    --white: #fff;
+    --black: #000;
+    --max-width-pattern: 90%;
+    --centralize-container: 0 auto;
+}
+
+.header-container {
+    background-color: var(--black);
+    padding: 60px 0 60px 0;
+}
+
+.nav-container {
+    width: var(--max-width-pattern);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container {
+    max-width: 292px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-container span {
+    font-size: 2rem;
+}
+
+.nav-container img {
+    width: 100%;
+}
+
+.nav-links{
+    display: flex;
+}
+
+.nav-links{
+font-size: 3.6rem;
+}
+
+.nav-links a{
+padding: 20px 40px 20px 40px;
+transition: all 600ms;
+}
+
+.nav-links a:hover{
+    color: #2C70FF;
+    transition: all 600ms;
+}
+
+.info-container{
+width: var(--max-width-pattern);
+margin: 0 auto 100px auto;
+}
+
+.titles{
+    font-weight: 700;
+font-size: 4rem;
+margin: 60px 0;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.info img{
+    max-width: 680px;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.paragraph, .paragraph p{
+    font-weight: 400;
+font-size: 3.6rem;
+line-height: 41px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--white);
+    gap: 20px;
+}
+
+.ricardo-ti{
+    display: flex;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+}
+
+.services ul, .assurance-container{
+    background-color: var(--black);
+    padding: 40px 90px;
+}
+
+.services ul{
+    gap: 16px;
+}
+
+.assurance-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.assurance{
+    display: flex;
+    gap: 20px;
+}
+
+.assurance-btn{
+   margin-top: 58px;
+   align-self: center;
+   padding: 20px 60px;
+   background-color:#2C70FF;
+   border-radius: 8px;
+}
