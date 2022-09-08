@@ -278,7 +278,7 @@ span {
     border-radius: 8px;
 }
 
-.infoTwo{
+.infoTwo {
     display: none;
 }
 
@@ -337,7 +337,7 @@ footer div span {
 
 @media only screen and (max-width: 1250px) {
 
-    .nav-links a{
+    .nav-links a {
         padding: 20px;
     }
 
@@ -374,110 +374,114 @@ footer div span {
 }
 
 @media only screen and (max-width: 1150px) {
-    .nav-container img{
+    .nav-container img {
         max-width: 250px;
     }
-    
-    .text, .paragraph p{
+
+    .text,
+    .paragraph p {
         font-size: 2rem;
     }
-    
-    .category img{
+
+    .category img {
         height: 200px;
     }
 
-     .assurance-container{
+    .assurance-container {
         padding: 30px 60px;
         justify-content: center;
     }
 
-    .method span{
+    .method span {
         font-size: 3rem;
     }
 
-    .location{
+    .location {
         justify-content: space-between;
     }
 
-    footer{
+    footer {
         padding: 20px 0;
     }
 
-    footer div img{
+    footer div img {
         max-width: 200px;
     }
 
-    footer div span{
+    footer div span {
         font-size: 2.5rem;
         margin-top: 10px;
     }
 }
 
 @media only screen and (max-width: 1024px) {
-  
 
-    .nav-container img{
+
+    .nav-container img {
         max-width: 200px;
     }
 
-    .logo-container span{
+    .logo-container span {
         font-size: 1.6rem;
     }
-    
-    .nav-links a{
+
+    .nav-links a {
         padding: 10px;
         font-size: 2.6rem;
     }
 
-    .titles{
+    .titles {
         margin: 40px 0;
     }
 
-    .info img{
+    .info img {
         max-width: 444px;
     }
 
-    .assurance-btn a{
+    .assurance-btn a {
         padding: 10px 20px;
     }
 
-    .category{
+    .category {
         max-width: 350px;
     }
 
-    .category img{
-    height: 180px;
+    .category img {
+        height: 180px;
     }
 
-    .days p, .days h3{
+    .days p,
+    .days h3 {
         font-size: 2.5rem;
         line-height: 38px;
     }
 
-    .days span{
+    .days span {
         font-size: 1.5rem;
     }
 
-    .map iframe{
+    .map iframe {
         max-width: 550px;
+        width: 100%;
         height: 300px;
     }
 
-    .location p{
+    .location p {
         font-size: 2rem;
     }
 }
 
 
 @media only screen and (max-width: 1000px) {
-    .infoOne{
+    .infoOne {
         display: none;
     }
 
-    .infoTwo{
+    .infoTwo {
         display: block;
     }
-    .ricardo-info{
+
+    .ricardo-info {
         color: var(--white);
         display: flex;
         flex-direction: column;
@@ -486,30 +490,157 @@ footer div span {
     }
 }
 
-@media only screen and (max-width: 916px){
+@media only screen and (max-width: 916px) {
 
-    header{
+    header {
         position: sticky;
         top: 0px;
     }
 
-    .assurance-btn a{
+    .assurance-btn a {
         font-size: 2rem;
     }
 
-    .services ul{
+    .services ul {
         padding: 20px 60px;
     }
 
-    .assurance-container{
+    .assurance-container {
         padding: 20px;
     }
 
-    .methods{
+    .methods {
         flex-wrap: wrap;
     }
 
-    .category-container{
+    .category-container {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .category img {
+        height: 250px;
+    }
+
+    .location {
+        flex-direction: column;
+    }
+
+    .location iframe {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .services {
+        gap: 40px;
+    }
+}
+
+@media only screen and (max-width: 722px) {
+    .max-width {
+        margin: 0 auto 80px auto;
+    }
+
+    .methods {
+        flex-direction: column;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    br {
+        display: none;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+
+    .services ul {
+        width: 100%;
+    }
+
+    .days {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .location {
+        align-items: stretch;
+    }
+
+    .whatsaap-support {
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .category-container {
+        grid-template-columns: auto;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 425px) {
+    .nav-links {
+        gap: 10px;
+    }
+
+    .nav-links a {
+        padding: 10px;
+    }
+
+    .header-container {
+        padding: 10px 0;
+    }
+
+    .whatsaap-support {
+        right: 10px;
+    }
+
+    footer div {
+        width: 90%;
+        align-items: center;
+    }
+
+    footer div span {
+        font-size: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+    .nav-links a {
+        font-size: 2.4rem;
+    }
+
+    .titles {
+        margin: 20px 0;
+        font-size: 3rem;
+    }
+
+    .text,
+    .paragraph p {
+        font-size: 1.8rem;
+    }
+
+    .max-width {
+        margin: 0 auto 70px auto;
+    }
+
+    .methods {
+        gap: 30px;
+    }
+
+    .location p {
+        font-size: 1.8rem;
     }
 }
